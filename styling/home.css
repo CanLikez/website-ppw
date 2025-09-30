@@ -71,7 +71,7 @@
 }
 
 .layout-image img {
-    width: 120%;
+    width: 100%;
     max-width: 120%;
     height: auto;
     border-radius: 8px;
@@ -255,4 +255,41 @@
     font-style: normal;
     color: #777;
     text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .layout-container {
+        flex-direction: column !important;
+    }
+
+    .layout-image img {
+        width: 100%; 
+        max-width: 100%;
+    }
+
+    .layout-text {
+        text-align: center; 
+        padding-left: 0;
+    }
+    .layout-text h2 {
+        text-align: center;
+    }
+
+    .value-item {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .slide {
+        min-width: 85%;
+    }
 }

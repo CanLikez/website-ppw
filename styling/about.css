@@ -176,3 +176,24 @@
     margin-bottom: 30px;
     color: #ccc;
 }
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 60px 20px; /* Kurangi padding di mobile */
+    }
+
+    /* Kecilkan font di hero */
+    .about-hero h1 {
+        font-size: 2.2rem;
+    }
+    .about-hero p {
+        font-size: 1rem;
+    }
+
+    /* Atur ulang ukuran gambar tim */
+    .team-member img {
+        width: 150px; /* Beri ukuran tetap agar tidak terlalu besar */
+        height: 150px;
+        border-radius: 50%; /* Membuat gambar tim menjadi bulat */
+    }
+}

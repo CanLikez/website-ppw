@@ -118,3 +118,14 @@
 .product-cta:hover {
   background-color: #555;
 }
+
+@media (max-width: 768px) {
+
+    .product-hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .product-hero-content p {
+        font-size: 1rem;
+    }
+  }
