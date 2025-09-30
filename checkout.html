@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - ZAXCKS Streetwear</title>
+  <link rel="stylesheet" href="./styling/main.css">
+  <link rel="stylesheet" href="./styling/checkout.css">
+  <link rel="icon" type="image/png" href="./images/head-icon.png"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="./images/Logo.png" alt="ZAXCKS Logo"></a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="checkout-page">
+    <div class="page-title">
+        <h1>Checkout</h1>
+    </div>
+
+    <div class="checkout-container">
+      <div class="customer-details">
+        <div class="form-section">
+          <h2>Shipping Address</h2>
+          <form id="checkout-form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" value="Candra" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" value="candra.afriansyah@mhs.unj.ac.id" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" value="+62" required>
+            </div>
+            <div class="form-group">
+              <label for="address">Address</label>
+              <input type="text" id="address" name="address" value="Jl. Kramat Asem" required>
+            </div>
+            <div class="form-group half-width">
+              <label for="city">City</label>
+              <input type="text" id="city" name="city" value="Jakarta" required>
+            </div>
+            <div class="form-group half-width">
+              <label for="postal-code">Postal Code</label>
+              <input type="text" id="postal-code" name="postal-code" value="13120" required>
+            </div>
+          </form>
+        </div>
+
+        <div class="form-section">
+          <h2>Payment Method</h2>
+          <div class="payment-options">
+            <div class="payment-option">
+              <input type="radio" id="bank-transfer" name="payment" value="bank-transfer" checked>
+              <label for="bank-transfer">Bank Transfer</label>
+            </div>
+            <div class="payment-option">
+              <input type="radio" id="e-wallet" name="payment" value="e-wallet">
+              <label for="e-wallet">E-Wallet (GoPay, OVO, Dana, etc.)</label>
+            </div>
+            <div class="payment-option">
+                <input type="radio" id="credit-card" name="payment" value="credit-card">
+                <label for="credit-card">Credit/Debit Card</label>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-summary">
+        <h2>Order Summary</h2>
+        <div class="order-items">
+          <div class="order-item">
+            <img src="./images/product/slide1.webp" alt="Monochrome Hoodie">
+            <div class="item-details">
+              <p class="item-name">Monochrome Hoodie</p>
+                <div class="quantity-selector">
+                  <button class="minus">-</button>
+                  <span class="qty">1</span>
+                  <button class="plus">+</button>
+                </div>
+            </div>
+            <p class="item-price">Rp 499.000</p>
+          </div>
+          <div class="order-item">
+            <img src="./images/product/slide2.png" alt="Classic Black Tee">
+            <div class="item-details">
+              <p class="item-name">Classic Black Tee</p>
+                <div class="quantity-selector">
+                  <button class="minus">-</button>
+                  <span class="qty">2</span>
+                  <button class="plus">+</button>
+                </div>
+            </div>
+            <p class="item-price">Rp 498.000</p>
+          </div>
+        </div>
+        <div class="order-total">
+          <div class="total-row">
+            <span>Subtotal</span>
+            <span>Rp 997.000</span>
+          </div>
+          <div class="total-row">
+            <span>Shipping</span>
+            <span>Rp 20.000</span>
+          </div>
+          <div class="total-row grand-total">
+            <span>Total</span>
+            <span>Rp 1.017.000</span>
+          </div>
+        </div>
+        <button type="submit" form="checkout-form" class="cta-button-dark">Place Order</button>
+      </div>
+    </div>
+  </main>
+
+  <footer> 
+
+    <div class="footer-container">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <img src="./images/Logo.png" alt="ZAXCKS Logo" />
+        </div>
+      </div>
+
+      <div class="footer-partners">
+        <h4>Our Partners</h4>
+          <div class="partner-logos">
+            <div class="dark-logo">
+              <img src="./images/footer/partner1.png" alt="Partner 1">
+              <img src="./images/footer/partner2.png" alt="Partner 2">
+            </div>
+              <img src="./images/footer/partner3.png" alt="Partner 3">
+              <img src="./images/footer/partner4.png" alt="Partner 4">
+          </div>
+      </div>
+
+      <div class="footer-right">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><i class="fas fa-envelope"></i> Email: <a href="mailto:info@zaxcks.com">info@zaxcks.com</a></li>
+          <li><i class="fas fa-phone"></i> Phone: <a href="tel:+6281234567890">+62 895-6359-49129</a></li>
+          <li><i class="fab fa-instagram"></i> Instagram: <a href="https://instagram.com/zaxcks_" target="_blank">@zaxcks</a></li> 
+        </ul> 
+      </div>
+    </div>
+
+    <div class="footer-copy"> 
+      <p>&copy; 2025 ZAXCKS Streetwear. All rights reserved.</p> 
+    </div> 
+
+  </footer>
+
+</body>
+</html>
