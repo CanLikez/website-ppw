@@ -142,7 +142,7 @@
     text-align: center;
 }
 .team-member img {
-    width: 35vw;
+    width: 45vw;
     height: auto;
     border-radius: 8px;
     object-fit: cover;
@@ -190,10 +190,13 @@
         font-size: 1rem;
     }
 
-    /* Atur ulang ukuran gambar tim */
+    #craftsmanship h2 {
+        font-size: 2rem;
+    }
+
     .team-member img {
-        width: 150px; /* Beri ukuran tetap agar tidak terlalu besar */
-        height: 150px;
-        border-radius: 50%; /* Membuat gambar tim menjadi bulat */
+        width: 250px; 
+        height: 250px;
+        border-radius: 25%; 
     }
 }
