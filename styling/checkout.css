@@ -209,4 +209,12 @@
     .form-group.half-width {
         width: 100%;
     }
+    
+    .plus {
+        margin-left: 5px;
+    }
+
+    .minus {
+        margin-right: 5px;
+    }
 }
