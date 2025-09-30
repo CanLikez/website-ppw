@@ -88,7 +88,7 @@ header {
 }
 
 .cta-button:hover {
-    background-color: #ddd;
+    background-color: #c4c4c4;
     transform: scale(1.05);
 }
 
@@ -231,13 +231,6 @@ footer {
 
     .nav-menu {
         gap: 25px; 
-    }
-
-    /* Footer */
-    footer {
-    background: #111;
-    color: #fff;
-    margin: 0 auto;
     }
     
     .footer-container {

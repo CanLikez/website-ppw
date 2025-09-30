@@ -137,6 +137,7 @@
     flex-wrap: wrap;
     max-width: 800px;
     margin: 50px auto 0;
+    padding-bottom: 0;
 }
 .team-member {
     text-align: center;
@@ -156,25 +157,40 @@
     color: #777;
 }
 
-/* Achievements */
-#achievements .partner-logos {
-    padding-top: 30px;
-}
-
 /* Call-to-Action */
 .about-cta-section {
-    background-color: #222;
-    color: #fff;
+    background-color: #fff;
+    color: #000000;
     text-align: center;
-    padding: 60px 20px;
+    padding: 60px 50px;
+    position: relative;
+    z-index: 10;
+    margin-top: -70px;
+    margin-bottom: 120px
 }
+
 .about-cta-section h2 {
-    color: #fff;
     margin-bottom: 15px;
 }
+
 .about-cta-section p {
     margin-bottom: 30px;
-    color: #ccc;
+}
+
+.cta-button-about {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.cta-button-about:hover {
+    background-color: #555;
+    transform: scale(1.05);
 }
 
 @media (max-width: 768px) {

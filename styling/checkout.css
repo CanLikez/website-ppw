@@ -133,12 +133,11 @@
     font-weight: 500;
 }
 
-/* .quantity-selector button {
-    
-} */
-
-.minus, .plus{
-    padding: 2px 9px 2px;
+.quantity-selector button {
+    padding: 2px 9px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer
 }
 
 .minus {
